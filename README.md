@@ -30,6 +30,7 @@ The project encompasses the following main tasks:
 Ensure we have Python 3.x installed on system. Other key dependencies include PyTorch, Flask, `torchtext`, and `scikit-learn`. we can install these packages via pip:
 
 
+### Installation
 
 Clone the repository to local machine:
 
@@ -39,6 +40,7 @@ cd A5-Sentence-Embedding-with-BERT
 ```
 Install all required dependencies by running:
 `pip install -r requirements.txt`
+
 Model files are stored in [Google Drive Link](https://drive.google.com/drive/folders/1myChlx5upBm-6k9qGTc8xcJxw2-4ObHT?usp=drive_link)
 ## Dataset Details
 
