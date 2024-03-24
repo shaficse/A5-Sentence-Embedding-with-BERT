@@ -1,0 +1,63 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Text similarity Checker</title>
+</head>
+<body>
+    <h1>Text similarity Checker</h1>
+    <form method="post">
+        Sentence 1:<br>
+        <input type="text" name="sentence1" required><br>
+        Sentence 2:<br>
+        <input type="text" name="sentence2" required><br><br>
+        <input type="submit" value="Calculate">
+    </form>
+    {% if similarity_score is not none %}
+    <h2>Similarity Score: {{ similarity_score }}</h2>
+{% endif %}
+
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text similarity Checker</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 20px;
+        }
+        .container {
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="mb-4">Text similarity Checker</h2>
+        <form method="post">
+            <div class="form-group">
+                <label for="sentence1">Sentence 1:</label>
+                <input type="text" class="form-control" id="sentence1" name="sentence1" required>
+            </div>
+            <div class="form-group">
+                <label for="sentence2">Sentence 2:</label>
+                <input type="text" class="form-control" id="sentence2" name="sentence2" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Calculate</button>
+        </form>
+        {% if similarity_score is not none %}
+            <div class="alert alert-info mt-4" role="alert">
+                Similarity Score: {{ similarity_score }}
+            </div>
+        {% endif %}
+    </div>
+    <!-- Include Bootstrap JS and its dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
