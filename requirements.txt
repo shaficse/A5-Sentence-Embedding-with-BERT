@@ -1,0 +1,7 @@
+numpy==1.25.2
+torch==2.1.2
+torchtext==0.16.2
+sentence-transformers==2.6.0
+pandas==2.2.0
+matplotlib==3.8.2
+tqdm==4.66.1

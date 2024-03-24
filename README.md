@@ -2,6 +2,18 @@
 
 This repository houses a comprehensive analysis of sentence similarity models, including training, evaluation, comparison, and deployment through a web application. The project is divided into several key tasks, each aimed at exploring different facets of sentence similarity using BERT-based models.
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+3. [Dataset Details](#dataset-details)
+4. [Model Comparison](#model-comparison)
+5. [Web Application Development](#web-application-development)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Acknowledgments](#acknowledgments)
+
 ## Overview
 
 The project encompasses the following main tasks:
@@ -17,11 +29,7 @@ The project encompasses the following main tasks:
 
 Ensure we have Python 3.x installed on system. Other key dependencies include PyTorch, Flask, `torchtext`, and `scikit-learn`. we can install these packages via pip:
 
-```bash
-pip install torch flask torchtext scikit-learn
-```
 
-### Installation
 
 Clone the repository to local machine:
 
@@ -29,6 +37,8 @@ Clone the repository to local machine:
 git clone https://github.com/shaficse/A5-Sentence-Embedding-with-BERT.git
 cd A5-Sentence-Embedding-with-BERT
 ```
+Install all required dependencies by running:
+`pip install -r requirements.txt`
 Model files are stored in [Google Drive Link](https://drive.google.com/drive/folders/1myChlx5upBm-6k9qGTc8xcJxw2-4ObHT?usp=drive_link)
 ## Dataset Details
 
