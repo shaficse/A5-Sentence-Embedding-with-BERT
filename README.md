@@ -29,7 +29,7 @@ Clone the repository to local machine:
 git clone https://github.com/shaficse/A5-Sentence-Embedding-with-BERT.git
 cd A5-Sentence-Embedding-with-BERT
 ```
-
+Model files are stored in [Google Drive Link](https://drive.google.com/drive/folders/1myChlx5upBm-6k9qGTc8xcJxw2-4ObHT?usp=drive_link)
 ## Dataset Details
 
 The project involved a thorough comparison of model performances using three key datasets: 
